@@ -1,0 +1,44 @@
+:root {
+  --body-bg: mintcream;
+  --input-bg: rgb(178, 192, 185);
+  --btn-bg: rgb(129, 146, 137);
+}
+body {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: var(--body-bg);
+}
+h1 {
+  margin: 3rem;
+}
+label {
+  display: block;
+  font-size: 1.5rem;
+}
+#birthdate {
+  outline: var(--body-bg);
+  max-width: 300px;
+  padding: 1rem;
+  font-size: 2rem;
+  background-color: var(--input-bg);
+  width: 100%;
+  border: 1px solid var(--btn-bg);
+  border-radius: 1rem;
+  margin: 20px;
+}
+
+#submit {
+  background: var(--btn-bg);
+  border: none;
+  padding: 0.7rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 25px;
+  cursor: pointer;
+  outline: #fff;
+  margin: auto;
+  display: block;
+}
+#result {
+  font-size: xx-large;
+}
